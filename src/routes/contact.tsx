@@ -4,12 +4,6 @@ import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/contact")({
-  head: () => ({
-    meta: [
-      { title: "Contact — E-Protibeshi" },
-      { name: "description", content: "Reach E-Protibeshi by phone, email or visit us at 99 Market Goli, Modern Mor, Dinajpur, Bangladesh." },
-    ],
-  }),
   component: ContactPage,
 });
 

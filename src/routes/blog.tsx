@@ -2,12 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Calendar, Clock } from "lucide-react";
 
 export const Route = createFileRoute("/blog")({
-  head: () => ({
-    meta: [
-      { title: "Blog — E-Protibeshi" },
-      { name: "description", content: "Tips, how-to guides and local service awareness from E-Protibeshi." },
-    ],
-  }),
   component: BlogPage,
 });
 

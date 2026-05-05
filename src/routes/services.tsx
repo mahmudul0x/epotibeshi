@@ -6,12 +6,6 @@ import { services, categories } from "@/data/services";
 import { cn } from "@/lib/utils";
 
 export const Route = createFileRoute("/services")({
-  head: () => ({
-    meta: [
-      { title: "All Services — E-Protibeshi" },
-      { name: "description", content: "Explore all daily life services from E-Protibeshi: delivery, technicians, transport, tutors, shifting, renting and more." },
-    ],
-  }),
   component: ServicesPage,
 });
 

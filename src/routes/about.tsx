@@ -2,12 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Heart, Target, Eye, ShieldCheck, Users, Sparkles } from "lucide-react";
 
 export const Route = createFileRoute("/about")({
-  head: () => ({
-    meta: [
-      { title: "About — E-Protibeshi" },
-      { name: "description", content: "E-Protibeshi started in 2020 to simplify daily life across Bangladesh through a community-driven service platform." },
-    ],
-  }),
   component: AboutPage,
 });
 

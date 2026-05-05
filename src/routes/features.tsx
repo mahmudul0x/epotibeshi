@@ -5,12 +5,6 @@ import {
 } from "lucide-react";
 
 export const Route = createFileRoute("/features")({
-  head: () => ({
-    meta: [
-      { title: "Service Modes & Features — E-Protibeshi" },
-      { name: "description", content: "All the ways E-Protibeshi serves you: in-person, online booking, delivery, takeout, curbside pickup and more." },
-    ],
-  }),
   component: FeaturesPage,
 });
 

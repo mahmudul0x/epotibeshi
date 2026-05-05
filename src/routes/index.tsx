@@ -8,12 +8,6 @@ import aboutImg from "@/assets/about-family.jpg";
 import ctaImg from "@/assets/cta-dinajpur.jpg";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "E-Protibeshi — Daily Life Services in Dinajpur" },
-      { name: "description", content: "Book delivery, technicians, rent-a-car, home tutors and more — one trusted platform for daily life in Dinajpur." },
-    ],
-  }),
   component: Home,
 });
 
